@@ -1,0 +1,26 @@
+.btncontainers, .maindiv {
+    border: 1px solid black;
+    width: 75%;
+    margin: 3px auto;
+    text-align: center;
+}
+h1{
+    border-bottom: 1px solid black;
+    text-align: center;
+    padding: 6px;
+    margin: 5px;
+}
+.btncontainers{ display: flex;
+    align-items:center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border:none;
+}
+.btn {
+    margin: 4px 4px 4px 1px;
+}
+.formdiv{
+    display: block;
+    align-items: center;
+    text-align: center;
+}
